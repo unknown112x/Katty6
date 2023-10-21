@@ -85,7 +85,7 @@
   
   function tombol(){wallpaper.style="transform: scale(1);";Tombol.style="opacity:1;transform: scale(1);";fungsi=1}
   //document.getElementById("By").onclick = function() {if(fungsi==1){menuju();}}
-  async function menuju(){window.location = "https://api.whatsapp.com/send?phone=089626005943&text=ini UNKOWN" + pesanwhatsapp;muncultombol3();}
+  async function menuju(){window.location = "https://api.whatsapp.com/send?phone=+6289626005943&text=ini UNKOWN" + pesanwhatsapp;muncultombol3();}
 
   kecepatan = 45;vketik1=kalimat.innerHTML;kalimat.innerHTML = "";
   function mulaiketik1(){
