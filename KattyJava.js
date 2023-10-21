@@ -85,7 +85,7 @@
   
   function tombol(){wallpaper.style="transform: scale(1);";Tombol.style="opacity:1;transform: scale(1);";fungsi=1}
   //document.getElementById("By").onclick = function() {if(fungsi==1){menuju();}}
-  async function menuju(){window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;muncultombol3();}
+  async function menuju(){window.location = "https://api.whatsapp.com/send?phone=&text=ini UNKOWN" + pesanwhatsapp;muncultombol3();}
 
   kecepatan = 45;vketik1=kalimat.innerHTML;kalimat.innerHTML = "";
   function mulaiketik1(){
@@ -175,5 +175,5 @@
   function fungsimau(){Tombol.style="";if(fungtom<3){setTimeout(function(){opsLclick=1;myCheck()},400)} else {menuju()}}
   function muncultombol(){resetPosisi();fungtom=1;Tombol.style="opacity:1;transform:scale(1)";}
   function muncultombol2(){resetPosisi();fungtom=2;By.innerHTML=penggantiBy.innerHTML;Bn.innerHTML=penggantiBn.innerHTML;Tombol.style="opacity:1;transform:scale(1)";}
-  
+  function muncultombol3(){fungtom=3;By.innerHTML="💌 Balas";Bn.style="display:none";Tombol.style="opacity:1;transform:scale(1)";}
   
